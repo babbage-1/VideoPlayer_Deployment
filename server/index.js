@@ -13,7 +13,6 @@ app.use(cors());
 app.use('/carousel/:id', express.static(__dirname + '/../client/dist'));
 
 
-
 app.get('/videos/:id', (req, res) => {
   const {id} = req.params;
   db.getVideos(id, (err, results) => {
