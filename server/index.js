@@ -13,8 +13,13 @@ app.use(cors());
 
 app.use('/carousel/:id', express.static(__dirname + '/../client/dist'));
 
-app.get('/loaderio-d4c8c0eecb993340555d613189834bf0', (req, res) => {
-  const filePath = path.join(__dirname, '../loaderio-d4c8c0eecb993340555d613189834bf0.txt');
+// app.get('/loaderio-d4c8c0eecb993340555d613189834bf0', (req, res) => {
+//   const filePath = path.join(__dirname, '../loaderio-d4c8c0eecb993340555d613189834bf0.txt');
+//   res.sendFile(filePath);
+// });
+
+app.get('/loaderio-3d63564513a05bc9ece929f7aca0ee3f', (req, res) => {
+  const filePath = path.join(__dirname, '../loaderio-3d63564513a05bc9ece929f7aca0ee3f.txt');
   res.sendFile(filePath);
 });
 
