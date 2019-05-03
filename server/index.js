@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
 const db = require('./db/index');
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 app.use(bodyParser.urlencoded( { extended: true } ))
 app.use(bodyParser.json())
