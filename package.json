@@ -1,7 +1,7 @@
 {
-  "name": "video-player-and-carousel",
-  "description": "",
-  "author": "",
+  "name": "VideoPlayer_Deployment",
+  "description": "Back-End Code of MoviOke Application for Deployment",
+  "author": "Aysun Sulun Tas",
   "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
@@ -48,12 +48,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/babbage-1/video-player-and-carousel"
+    "url": "https://github.com/MovieOke_BackEnd/VideoPlayer_Module.git"
   },
   "bugs": {
-    "url": "https://github.com/babbage-1/video-player-and-carousel"
+    "url": "https://github.com/MovieOke_BackEnd/VideoPlayer_Module/issues"
   },
-  "homepage": "https://github.com/babbage-1/video-player-and-carousel#readme",
+  "homepage": "https://github.com/MovieOke_BackEnd/VideoPlayer_Module#readme",
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
